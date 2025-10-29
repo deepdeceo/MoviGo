@@ -5,6 +5,7 @@
 01: root
 02: body
 03: loader
+04: Login Page
 */
 
 :root {
@@ -15,6 +16,18 @@
     --white-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-main {
+    color: var(--primary-color);
+}
+
+/*
+ 02. Body Styles
+*/
 body {
     width: 100%;
     max-width: 600px;
@@ -61,9 +74,17 @@ body {
 }
 
 /*
-* Splash Screen Image Styles
+* 04: login Pages
 */
-.splash-main-image img {
-    height: 305px;
-    display: block;
+.long-height {
+    height: 400px;
+}
+
+.login-image {
+    height: 250px;
+}
+.social-login-link{
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 10px;
 }
